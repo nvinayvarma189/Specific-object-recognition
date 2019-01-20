@@ -1,0 +1,4 @@
+opencv-python==3.4.2.16
+numpy==1.15.4
+matplotlib==2.1.2
+sklearn==0.0
