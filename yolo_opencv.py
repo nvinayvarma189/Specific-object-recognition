@@ -44,9 +44,7 @@ def showimage(img):
 
 
     
-image = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/image3.jpg')
-# image2 = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/image2.jpg')
-# image3 = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/image3.jpg')
+image = cv2.imread('./image1.jpg')
 
 Width = image.shape[1]
 Height = image.shape[0]
