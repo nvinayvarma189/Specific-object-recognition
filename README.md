@@ -3,6 +3,7 @@ When given different views of an object as input, it can tell us if that specifi
 
 ## Run
 - Please download the weights file for YOLO if don't have it already:
+
   `wget https://pjreddie.com/media/files/yolov3.weights`
 - Here `image1.jpg`, `image2.jpg`, `image3.jpg` are the inputs. These are the front-view, side-view and the other side-view of the query object (laptop in this case) respectively. please feel free to test this with any other object as the query object.
 
