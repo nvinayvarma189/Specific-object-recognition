@@ -116,7 +116,7 @@ def checkSimilar(obj, view_image):
         return 0
 
     
-image = cv2.imread('./occ_lap.jpg')
+image = cv2.imread('./images/occ_lap.jpg')
 
 print("Loaded Test image")
 print()
@@ -198,9 +198,9 @@ print()
 
 
 
-img1 = cv2.imread('./image_yolo1.jpg')
-img2 = cv2.imread('./image_yolo2.jpg')
-img3 = cv2.imread('./image_yolo3.jpg')
+img1 = cv2.imread('./images/image_yolo1.jpg')
+img2 = cv2.imread('./images/image_yolo2.jpg')
+img3 = cv2.imread('./images/image_yolo3.jpg')
 
 print("loaded the crop fitted images of different views of the query object.")
 print()

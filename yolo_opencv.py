@@ -20,7 +20,7 @@ def draw_prediction(img, class_id, confidence, x, y, x_plus_w, y_plus_h, count):
 
     cv2.rectangle(img, (x,y), (x_plus_w,y_plus_h), color, 2)
     crop_img = img[y:y+h, x:x+w]
-    cv2.imwrite('image_yolo'+str(3)+'.jpg', crop_img)
+    cv2.imwrite('image_yolo'+str(1)+'.jpg', crop_img)
     cv2.putText(img, label, (x-10,y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
     with open("detected_view_object.txt", 'w') as f:
     	f.write(label)
@@ -43,7 +43,7 @@ def showimage(img):
 
 
     
-image = cv2.imread('./image1.jpg')
+image = cv2.imread('./images/image1.jpg')
 
 Width = image.shape[1]
 Height = image.shape[0]
