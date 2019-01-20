@@ -117,7 +117,7 @@ def checkSimilar(obj, view_image):
         return 0
 
     
-image = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/occ_lap.jpg')
+image = cv2.imread('./occ_lap.jpg')
 
 print("Loaded Test image")
 print()
@@ -199,9 +199,9 @@ print()
 
 
 
-img1 = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/image_yolo1.jpg')
-img2 = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/image_yolo2.jpg')
-img3 = cv2.imread('/home/roronoa/Desktop/Projects/Hackathons/i_hack/experiments/yolo/object-detection-opencv-master/image_yolo3.jpg')
+img1 = cv2.imread('./image_yolo1.jpg')
+img2 = cv2.imread('./image_yolo2.jpg')
+img3 = cv2.imread('./image_yolo3.jpg')
 
 print("loaded the crop fitted images of different views of the query object.")
 print()
